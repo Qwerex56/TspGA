@@ -1,0 +1,4 @@
+"E:\Rider Ides\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/Rider Ides/CLion/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\C-Projects\TspGA -B E:\C-Projects\TspGA\cmake-build-debug
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: E:/C-Projects/TspGA/cmake-build-debug
