@@ -1,0 +1,13 @@
+show_progress=1
+graph_path=.\ry48p.atsp
+is_symmetrical=0
+graph_config=.\ry48p.atsp
+max_work_time=900
+optimal_solution=14422
+acceptance_probability=0.85
+cooling_rate=0.999
+end_temperature=1e-37
+iterations_per_temperature=50
+temp_strategy=1
+gen_strategy=1
+use_nn_as_bound=0
