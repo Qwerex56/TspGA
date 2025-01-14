@@ -133,6 +133,12 @@ build CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/Orde
   OBJECT_DIR = CMakeFiles\TspGA.dir
   OBJECT_FILE_DIR = CMakeFiles\TspGA.dir\TspAlgoBase\GeneticAlgorithm\CrossoverStrategies
 
+build CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/GeneticAlgorithm.cpp.obj: CXX_COMPILER__TspGA_unscanned_Debug E$:/C-Projects/TspGA/TspAlgoBase/GeneticAlgorithm/GeneticAlgorithm.cpp || cmake_object_order_depends_target_TspGA
+  DEP_FILE = CMakeFiles\TspGA.dir\TspAlgoBase\GeneticAlgorithm\GeneticAlgorithm.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TspGA.dir
+  OBJECT_FILE_DIR = CMakeFiles\TspGA.dir\TspAlgoBase\GeneticAlgorithm
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TspGA
@@ -141,7 +147,7 @@ build CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/Orde
 #############################################
 # Link the executable TspGA.exe
 
-build TspGA.exe: CXX_EXECUTABLE_LINKER__TspGA_Debug CMakeFiles/TspGA.dir/main.cpp.obj CMakeFiles/TspGA.dir/Graph/Graph.cpp.obj CMakeFiles/TspGA.dir/Graph/SymmetricalGraph.cpp.obj CMakeFiles/TspGA.dir/Graph/AsymmetricalGraph.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/TspAlgoBase.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/SelectionStrategy.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/ProportionalSelection.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/TournamentSelection.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/RankingSelection.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/Path.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/MutationsStrategies/MutationStrategy.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/MutationsStrategies/InsertMutation.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/CrossoverStrategy.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/OrderCrossover.cpp.obj
+build TspGA.exe: CXX_EXECUTABLE_LINKER__TspGA_Debug CMakeFiles/TspGA.dir/main.cpp.obj CMakeFiles/TspGA.dir/Graph/Graph.cpp.obj CMakeFiles/TspGA.dir/Graph/SymmetricalGraph.cpp.obj CMakeFiles/TspGA.dir/Graph/AsymmetricalGraph.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/TspAlgoBase.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/SelectionStrategy.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/ProportionalSelection.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/TournamentSelection.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/SelectionStrategies/RankingSelection.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/Path.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/MutationsStrategies/MutationStrategy.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/MutationsStrategies/InsertMutation.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/CrossoverStrategy.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/OrderCrossover.cpp.obj CMakeFiles/TspGA.dir/TspAlgoBase/GeneticAlgorithm/GeneticAlgorithm.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TspGA.dir

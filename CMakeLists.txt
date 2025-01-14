@@ -29,4 +29,6 @@ add_executable(TspGA main.cpp
         TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/CrossoverStrategy.cpp
         TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/CrossoverStrategy.h
         TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/OrderCrossover.cpp
-        TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/OrderCrossover.h)
+        TspAlgoBase/GeneticAlgorithm/CrossoverStrategies/OrderCrossover.h
+        TspAlgoBase/GeneticAlgorithm/GeneticAlgorithm.cpp
+        TspAlgoBase/GeneticAlgorithm/GeneticAlgorithm.h)

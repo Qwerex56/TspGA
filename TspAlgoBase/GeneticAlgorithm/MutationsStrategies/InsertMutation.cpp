@@ -10,8 +10,8 @@ namespace pea_tsp::ga {
 Path InsertMutation::operator()(const Path &path) {
   auto mutation = path.GetPath();
 
-  auto vert_a = GetRandInt(0, (int)mutation.size());
-  auto vert_b = GetRandInt(0, (int)mutation.size());
+  auto vert_a = GetRandInt(0, (int)mutation.size() - 1);
+  auto vert_b = GetRandInt(0, (int)mutation.size() - 1);
 
   auto temp = mutation[vert_a];
 

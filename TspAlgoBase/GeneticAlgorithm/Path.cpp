@@ -32,6 +32,7 @@ int Path::GetTravelWeight() const {
       weight = -1;
     }
   }
+
   return weight;
 }
 

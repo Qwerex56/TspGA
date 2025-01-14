@@ -11,6 +11,7 @@ namespace pea_tsp::ga {
 
 class Path {
  public:
+  Path() = default;
   Path(Graph *graph, const std::vector<int>& path);
 
   [[nodiscard]] int GetTravelWeight() const;

@@ -13,7 +13,7 @@
 #include "../Graph/SymmetricalGraph.h"
 #include "../Graph/AsymmetricalGraph.h"
 
-namespace pea_tsp::algo {
+namespace pea_tsp {
 TspAlgoBase::TspAlgoBase(const std::string &conf_path, const std::string &graph_conf_path) {
   auto file = std::fstream{conf_path};
 

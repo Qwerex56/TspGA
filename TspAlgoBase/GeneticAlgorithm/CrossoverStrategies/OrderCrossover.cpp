@@ -9,8 +9,8 @@
 namespace pea_tsp::ga {
 
 Path OrderCrossover::operator()(const Path &parent_a, const Path &parent_b) const {
-  auto section_start = GetRandInt(0, (int)parent_a.GetPath().size() - 2);
-  auto section_end = GetRandInt(section_start + 1, (int)parent_a.GetPath().size() - 1);
+  auto section_start = GetRandInt(0, (int)parent_a.GetPath().size() - 3);
+  auto section_end = GetRandInt(section_start + 1, (int)parent_a.GetPath().size() - 2);
 
   auto child = std::vector<int>(parent_a.GetPath().size(), -1);
 
@@ -35,6 +35,10 @@ Path OrderCrossover::operator()(const Path &parent_a, const Path &parent_b) cons
 
     if (has_vert) {
       continue;
+    }
+
+    while (child[emplace_position] != -1 && emplace_position <= child.size() - 1) {
+      emplace_position++;
     }
 
     child[emplace_position] = parent_b.GetPath()[i];
